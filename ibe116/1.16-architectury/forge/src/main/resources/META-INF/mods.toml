@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "in-backpack-eat"
+version = "${version}"
+displayName = "In-backpack Eat"
+authors = "NmmOC7"
+description = '''
+
+'''
+#logoFile = ""
+
+[[dependencies.in-backpack-eat]]
+modId = "forge"
+mandatory = true
+versionRange = "[36,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.in-backpack-eat]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.in-backpack-eat]]
+modId = "architectury"
+mandatory = true
+versionRange = "[1.30.55,)"
+ordering = "AFTER"
+side = "BOTH"
